@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Send a Prayer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="background">
+    <img src="2201_w023_n001_1762b_p1_1762.jpg" alt="Guy looking at the sky">
+  </div>
+
+  <div class="prayer-input">
+    <input type="text" id="prayerInput" placeholder="Write your prayer here...">
+    <button id="sendPrayer">🌟 Send Prayer</button>
+  </div>
+
+  <div class="social-buttons">
+    <a href="https://x.com/send_a_prayer" target="_blank" class="twitter">🐦 Twitter</a>
+    <a href="https://t.me/sendaprayer" target="_blank" class="telegram">✈️ Telegram</a>
+    <a href="https://pump.fun/profile/2z6RqQUWPHwL3k2Bz4gdXYk2oUZ2SxDcVcCpu9bybBPB" class="buy">🛒 Buy CA HERE</a>
+    <button id="viewPrayers">📜 View Prayers</button>
+  </div>
+
+  <!-- Comet Animation Container -->
+  <div id="cometContainer"></div>
+
+  <!-- Popup for Prayers -->
+  <div id="prayersPopup" class="popup">
+    <div class="popup-content">
+      <span class="close">&times;</span>
+      <h2>Prayers Sent 🌠</h2>
+      <ul id="prayersList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
